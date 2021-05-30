@@ -2,6 +2,11 @@
 public class Product {
 	// Product diye bir veri tipim var. Bunun id, name .. özellikleri mevcut.
 
+	int id;
+	String name;
+	double unitPrice;
+	String detail;
+
 	public Product() {
 		// Constructor oluþturduk. Product product1 = new Product(); her new sonrasý bu
 		// alan çalýþýr!
@@ -17,8 +22,4 @@ public class Product {
 		this.detail = detail;
 	}
 
-	int id;
-	String name;
-	double unitPrice;
-	String detail;
 }
