@@ -1,0 +1,9 @@
+
+public class CustomerManager {
+	
+	public void add(Logger logger) {
+		//Müþteri ekleme kodlarý
+		System.out.println("Müþteri Eklendi!");
+		logger.log();
+	}
+}
